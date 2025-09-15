@@ -23,7 +23,7 @@ export default function Home() {
       <main className="">
         <div className="flex justify-center">
           <Image
-            src={`${isProd && ""}logo.svg`}
+            src="logo.svg"
             alt="Mockup"
             width={600}
             height={100}
@@ -102,7 +102,7 @@ export default function Home() {
           mockup={
             <div>
               <Image
-                src="/hero.png"
+                src="hero.png"
                 alt="Mockup"
                 width={1248}
                 height={765}

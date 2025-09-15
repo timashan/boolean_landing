@@ -54,12 +54,7 @@ export default function FeaturesSection() {
             </p>
           </div>
           <div className="relative w-full h-72">
-            <Image
-              src="/bar.png"
-              alt="Mockup"
-              fill
-              className="object-contain"
-            />
+            <Image src="bar.png" alt="Mockup" fill className="object-contain" />
           </div>
 
           {/* <div aria-hidden className="flex flex-col gap-8">
