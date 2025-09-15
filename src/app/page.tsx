@@ -19,7 +19,7 @@ export default function Home() {
   const isProd = process.env.NODE_ENV === "production";
 
   return (
-    <div className="">
+    <div className="relative overflow-hidden">
       <main className="">
         <div className="flex justify-center">
           <Image
@@ -27,7 +27,14 @@ export default function Home() {
             alt="Mockup"
             width={600}
             height={100}
-            className="invert absolute top-0 z-50 opacity-10 px-12"
+            className="invert absolute top-0 z-50 opacity-20 px-12"
+          />
+          <Image
+            src="logo.svg"
+            alt="Mockup"
+            width={600}
+            height={100}
+            className="invert absolute top-0 z-50 opacity-2 px-12 scale-[5]"
           />
         </div>
         <Hero1
@@ -106,7 +113,7 @@ export default function Home() {
                 alt="Mockup"
                 width={1248}
                 height={765}
-                className="w-full"
+                className="min-w-[25rem]"
               />
               {/* <div className="absolute bottom-0 left-150 scale-[1.2] border">
                 <Image
