@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  assetPrefix: "/boolean_landing/",
-  basePath: "/boolean_landing",
+  assetPrefix: isProd ? "/boolean_landing/" : "",
+  basePath: isProd ? "/boolean_landing" : "",
   images: {
     unoptimized: true,
   },
