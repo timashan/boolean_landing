@@ -41,7 +41,7 @@ export default function Hero({
     <Section
       className={cn(
         "fade-bottom w-full overflow-hidden pb-0 sm:pb-0 md:pb-0",
-        className,
+        className
       )}
     >
       <div className="max-w-container mx-auto flex flex-col gap-12 sm:gap-24">

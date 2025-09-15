@@ -100,7 +100,7 @@ export default function Hero({
     <Section
       className={cn(
         "fade-bottom w-full overflow-hidden pb-0 sm:pb-0 md:pb-0",
-        className,
+        className
       )}
     >
       <div className="max-w-container relative mx-auto flex flex-col gap-12 pt-8">
@@ -146,14 +146,14 @@ export default function Hero({
                 <Mockup type="responsive">{mockups.left}</Mockup>
               </MockupFrame>
             </div>
-            <div className="relative z-10 h-[24px] rotate-[-24deg] skew-y-12 transition-all delay-200 duration-700 ease-in-out group-hover:rotate-[-12deg] group-hover:skew-y-6">
+            {/* <div className="relative z-10 h-[24px] rotate-[-24deg] skew-y-12 transition-all delay-200 duration-700 ease-in-out group-hover:rotate-[-12deg] group-hover:skew-y-6">
               <MockupFrame
                 className="animate-appear shadow-mockup opacity-0 delay-1000"
                 size="small"
               >
                 <Mockup type="responsive">{mockups.center}</Mockup>
               </MockupFrame>
-            </div>
+            </div> */}
             <div className="relative left-[32%] z-10 rotate-[-24deg] skew-y-12 transition-all delay-200 duration-700 ease-in-out group-hover:left-[48%] group-hover:rotate-[-12deg] group-hover:skew-y-6">
               <MockupFrame
                 className="animate-appear shadow-mockup opacity-0 delay-1500"

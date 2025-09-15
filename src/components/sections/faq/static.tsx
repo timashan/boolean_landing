@@ -15,121 +15,93 @@ interface FAQProps {
 }
 
 export default function FAQ({
-  title = "Questions and Answers",
+  title = "Questions && Answers",
   items = [
     {
-      question:
-        "Why building a great landing page is critical for your business?",
+      question: "What is Boolean?",
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            In today&apos;s AI-driven world, standing out is harder than ever.
-            While anyone can build a product, a professional landing page makes
-            the difference between success and failure.
+            Boolean is a microblogging platform built for opinions. Instead of
+            endless feeds, it&apos;s about short, sharp takes that spark debate
+            and reveal collective beliefs.
           </p>
           <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            Launch UI helps you ship faster without compromising on quality.
+            Every opinion is data — Boolean uses NLP and statistical analysis to
+            uncover trends, clusters of belief, and where people align or
+            diverge.
           </p>
         </>
       ),
     },
     {
-      question: "Why use Launch UI instead of a no-code tool?",
+      question: "Why use Boolean instead of traditional social media?",
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[600px]">
-            No-code tools lock you into their ecosystem with recurring fees and
-            limited control. They often come with performance issues and make it
-            difficult to integrate with your product.
+            Most platforms focus on engagement, not clarity. Opinions get buried
+            under noise, ads, and algorithms designed for attention.
           </p>
           <p className="text-muted-foreground mb-4 max-w-[600px]">
-            You can&apos;t even change your hosting provider and basic things
-            like web analytics come as extra costs and paid add-ons.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[600px]">
-            What might seem like a convenient solution today could paint you
-            into a corner tomorrow, limiting your ability to scale and adapt.
-            Launch UI gives you full control of your code while maintaining
-            professional quality.
+            Boolean is designed for structured expression. It&apos;s not about
+            likes or followers — it&apos;s about mapping what people actually
+            think and how those views evolve.
           </p>
         </>
       ),
     },
     {
-      question:
-        "How Launch UI is different from other components libraries and templates?",
+      question: "How is Boolean different from polls or surveys?",
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[580px]">
-            Launch UI stands out with premium design quality and delightful
-            touches of custom animations and illustrations.
+            Surveys ask pre-set questions. Boolean flips it: anyone can post an
+            opinion, and others respond organically.
           </p>
           <p className="text-muted-foreground mb-4 max-w-[580px]">
-            All components are carefully crafted to help position your product
-            as a professional tool, avoiding the generic template look.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            Unlike many libraries that rely on outdated CSS practices and old
-            dependencies, Launch UI is built with modern technologies and best
-            practices in mind.
+            The platform then aggregates those responses into belief maps, trend
+            lines, and insights you won&apos;t get from static surveys.
           </p>
         </>
       ),
     },
     {
-      question: 'Why exactly does it mean that "The code is yours"?',
+      question: "What happens to the opinions I post?",
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[580px]">
-            The basic version of Launch UI is open-source and free forever,
-            under a do-whatever-you-want license.
+            Every post becomes part of a living dataset. Boolean tracks shifts
+            in sentiment, regional differences, and alignment across groups.
           </p>
           <p className="text-muted-foreground mb-4 max-w-[580px]">
-            The pro version that contains more components and options is a
-            one-time purchase that gives you lifetime access to all current and
-            future content. Use it for unlimited personal and commercial
-            projects - no recurring fees or restrictions.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[580px]">
-            For complete details about licensing and usage rights, check out{" "}
-            <Link href="/pricing" className="text-foreground underline">
-              the pricing page
-            </Link>
-            .
+            Your opinion isn&apos;t just content — it&apos;s a signal that
+            contributes to collective understanding.
           </p>
         </>
       ),
     },
     {
-      question: "Are Figma files included?",
+      question: "Can I see how my opinions compare to others?",
       answer: (
         <p className="text-muted-foreground mb-4 max-w-[580px]">
-          Yes! The complete Launch UI template is available for free on the{" "}
-          <Link
-            href="https://www.figma.com/community/file/1420131743903900629/launch-ui-landing-page-components-ui-kit"
-            className="text-foreground underline"
-          >
-            Figma community
-          </Link>
-          .
+          Yes. Boolean gives you analytics on how your views align with
+          different communities, regions, or the overall public mood. You can
+          literally see where you stand in the bigger picture.
         </p>
       ),
     },
     {
-      question: "Can I get a discount?",
+      question: "Who is Boolean for?",
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[580px]">
-            Actually, yes! I&apos;m always acively looking for beta testers of
-            new features. If you are interested in exchanging feedback for a
-            discount, please contact me via{" "}
-            <a
-              href="https://www.launchuicomponents.com/"
-              className="underline underline-offset-2"
-            >
-              email
-            </a>
-            .
+            Boolean is for anyone who wants to express, explore, and understand
+            opinions — from casual users debating pizza toppings to researchers
+            studying social trends.
+          </p>
+          <p className="text-muted-foreground mb-4 max-w-[580px]">
+            If you believe opinions shape the world, Boolean is where you can
+            see it happen in real time.
           </p>
         </>
       ),
