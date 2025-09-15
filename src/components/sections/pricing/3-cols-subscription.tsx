@@ -6,10 +6,7 @@ import { User, Users } from "lucide-react";
 
 import { Section } from "../../ui/section";
 import { Switch } from "../../ui/switch";
-import {
-  PricingColumn,
-  PricingColumnProps,
-} from "../../ui/pricing-column";
+import { PricingColumn, PricingColumnProps } from "../../ui/pricing-column";
 
 type Plan = {
   name: string;
@@ -18,7 +15,7 @@ type Plan = {
   monthlyPrice: number;
   yearlyPrice: number;
   cta: {
-    variant: "glow" | "default";
+    variant: "ghost" | "default";
     label: string;
     href: string;
   };
@@ -83,7 +80,7 @@ export default function Pricing({
       monthlyPrice: 75,
       yearlyPrice: 720,
       cta: {
-        variant: "glow",
+        variant: "ghost",
         label: "Contact sales",
         href: "#",
       },
@@ -147,7 +144,11 @@ export default function Pricing({
                 priceNote={
                   plan.monthlyPrice === 0
                     ? "Free and open-source forever"
-                    : `${isYearly ? "Billed yearly" : "Billed monthly"} (${isYearly ? "$" + plan.yearlyPrice + "/year" : "$" + plan.monthlyPrice + "/month"})`
+                    : `${isYearly ? "Billed yearly" : "Billed monthly"} (${
+                        isYearly
+                          ? "$" + plan.yearlyPrice + "/year"
+                          : "$" + plan.monthlyPrice + "/month"
+                      })`
                 }
                 cta={plan.cta}
                 features={plan.features}

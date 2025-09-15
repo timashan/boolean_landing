@@ -60,7 +60,7 @@ export default function PlutoPage() {
           description="TodoPluto helps you organize your life, track tasks, and boost productivity with a beautiful, intuitive mobile experience."
           buttons={[
             { text: "Download for iOS", href: "#", variant: "default" },
-            { text: "Download for Android", href: "#", variant: "glow" },
+            { text: "Download for Android", href: "#", variant: "ghost" },
           ]}
         />
         <LogosStatic title="Trusted by thousands of productivity enthusiasts" />
@@ -497,7 +497,7 @@ export default function PlutoPage() {
             {
               href: "#",
               text: "Download for Android",
-              variant: "glow",
+              variant: "ghost",
             },
           ]}
         />

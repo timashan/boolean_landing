@@ -87,7 +87,7 @@ function Neptune() {
           {
             href: "/",
             text: "See demo",
-            variant: "glow",
+            variant: "ghost",
           },
         ]}
         mockup={
@@ -560,7 +560,7 @@ function Neptune() {
             price: 15,
             priceNote: "Monthly or save 20% annually",
             cta: {
-              variant: "glow",
+              variant: "ghost",
               label: "Get started",
               href: "#",
             },
@@ -672,7 +672,7 @@ function Neptune() {
             <Button variant="default" size="lg" asChild>
               <Link href="/">Try for free</Link>
             </Button>
-            <Button variant="glow" size="lg" asChild>
+            <Button variant="ghost" size="lg" asChild>
               <Link href="/">Schedule a demo</Link>
             </Button>
           </div>

@@ -2,10 +2,7 @@ import { cn } from "@/lib/utils";
 import { User, Users } from "lucide-react";
 
 import { Section } from "../../ui/section";
-import {
-  PricingColumn,
-  PricingColumnProps,
-} from "../../ui/pricing-column";
+import { PricingColumn, PricingColumnProps } from "../../ui/pricing-column";
 
 interface PricingProps {
   title?: string;
@@ -45,7 +42,7 @@ export default function Pricing({
       price: 499,
       priceNote: "Lifetime access. Free updates. No recurring fees.",
       cta: {
-        variant: "glow",
+        variant: "ghost",
         label: "Get all-access for your team",
         href: "https://www.launchuicomponents.com/",
       },

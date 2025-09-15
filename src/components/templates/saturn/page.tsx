@@ -175,7 +175,7 @@ function Saturn() {
           {
             href: "/",
             text: "Contact sales",
-            variant: "glow",
+            variant: "ghost",
           },
         ]}
       />
@@ -547,7 +547,7 @@ function Saturn() {
             monthlyPrice: 0,
             yearlyPrice: 0,
             cta: {
-              variant: "glow",
+              variant: "ghost",
               label: "Get started for free",
               href: "#",
             },
@@ -589,7 +589,7 @@ function Saturn() {
             monthlyPrice: 25,
             yearlyPrice: 250,
             cta: {
-              variant: "glow",
+              variant: "ghost",
               label: "Contact sales",
               href: "#",
             },
@@ -680,7 +680,7 @@ function Saturn() {
           {
             href: "/",
             text: "Contact sales",
-            variant: "glow",
+            variant: "ghost",
           },
         ]}
       />

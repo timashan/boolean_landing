@@ -80,7 +80,9 @@ export default function MCPServerPage() {
                   className="border-border/10 bg-foreground/10 grow"
                 />
                 <Button variant="default" size="lg" asChild>
-                  <a href="https://www.launchuicomponents.com/">Join waitlist</a>
+                  <a href="https://www.launchuicomponents.com/">
+                    Join waitlist
+                  </a>
                 </Button>
               </form>
               <p className="text-muted-foreground text-xs">
@@ -322,7 +324,7 @@ export default function MCPServerPage() {
               cta: {
                 label: "Get started",
                 href: "#",
-                variant: "glow",
+                variant: "ghost",
               },
             },
             {
@@ -362,7 +364,7 @@ export default function MCPServerPage() {
               cta: {
                 label: "Contact sales",
                 href: "#",
-                variant: "glow",
+                variant: "ghost",
               },
             },
           ]}

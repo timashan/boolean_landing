@@ -36,7 +36,10 @@ export default function Hero({
       <span className="text-muted-foreground">
         New version of Launch UI is out!
       </span>
-      <a href="https://www.launchuicomponents.com/" className="flex items-center gap-1">
+      <a
+        href="https://www.launchuicomponents.com/"
+        className="flex items-center gap-1"
+      >
         Get started
         <ArrowRightIcon className="size-3" />
       </a>
@@ -51,7 +54,7 @@ export default function Hero({
     {
       href: "https://www.launchuicomponents.com/",
       text: "Github",
-      variant: "glow",
+      variant: "ghost",
       icon: <Github className="mr-2 size-4" />,
     },
   ],
