@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "pnpm build && pnpm export && pnpm gh-pages -d out"
+    "deploy": "npx serve@latest out"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
