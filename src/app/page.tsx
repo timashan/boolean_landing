@@ -16,13 +16,14 @@ import { useState } from "react";
 
 export default function Home() {
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const isProd = process.env.NODE_ENV === "production";
 
   return (
     <div className="">
       <main className="">
         <div className="flex justify-center">
           <Image
-            src="/logo.svg"
+            src={`/${isProd && "/boolean_landing"}logo.svg`}
             alt="Mockup"
             width={600}
             height={100}
