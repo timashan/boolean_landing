@@ -27,14 +27,14 @@ export default function Home() {
             alt="Mockup"
             width={600}
             height={100}
-            className="invert absolute top-0 z-50 opacity-20 px-12"
+            className="invert absolute top-0 z-50 opacity-20 px-12 pointer-events-none"
           />
           <Image
             src="logo.svg"
             alt="Mockup"
             width={600}
             height={100}
-            className="invert absolute top-0 z-50 opacity-2 px-12 scale-[5]"
+            className="invert absolute top-0 z-50 opacity-2 px-12 scale-[5] pointer-events-none"
           />
         </div>
         <Hero1
@@ -113,7 +113,7 @@ export default function Home() {
                 alt="Mockup"
                 width={1248}
                 height={765}
-                className="min-w-[25rem]"
+                className="min-w-[30rem]"
               />
               {/* <div className="absolute bottom-0 left-150 scale-[1.2] border">
                 <Image
