@@ -75,7 +75,7 @@ function CalendarSidebar({
       className={cn(
         "relative flex h-full flex-col p-3 pr-5 text-left",
         isMobileView &&
-          "bg-muted border-border dark:border-border/20 rounded-lg border shadow-2xl",
+          "bg-muted border-border dark:border-border/20 rounded-lg border shadow-2xl"
       )}
     >
       <div className="flex items-center gap-4">
@@ -140,7 +140,7 @@ function CalendarSidebar({
 
       {/* Additional controls */}
       <div className="mt-auto p-2">
-        <Button variant="glow" className="w-full">
+        <Button variant="ghost" className="w-full">
           Create Event
         </Button>
       </div>

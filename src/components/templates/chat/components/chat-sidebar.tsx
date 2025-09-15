@@ -96,7 +96,7 @@ export function AppSidebar({
       <SidebarContent>
         <SidebarGroup className="p-4">
           <Button
-            variant="glow"
+            variant="ghost"
             className="w-full"
             onClick={() => handleChatClick("empty")}
             data-active={activeChat?.id === "empty"}
