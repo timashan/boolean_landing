@@ -2,8 +2,7 @@ name: Deploy Next.js to GitHub Pages
 
 on:
   push:
-    branches:
-      - main # Or your main branch name
+    branches: [main, master]
 
 jobs:
   build-and-deploy:
