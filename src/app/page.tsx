@@ -103,9 +103,13 @@ export default function Home() {
                   </MagneticButton>
                 </form>
               )}
-              {isSubmitted && (
+              {isSubmitted ? (
                 <p className="text-muted-foreground text-xs">
                   We&apos;ll notify you when we launch.
+                </p>
+              ) : (
+                <p className="text-muted-foreground text-xs">
+                  Your email will solely be used for the waitlist.
                 </p>
               )}
             </>
