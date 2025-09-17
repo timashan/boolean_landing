@@ -53,7 +53,7 @@ export default function Home() {
           //   </Badge>
           // }
           title=""
-          description="Building a platform to understand collective beliefs — revealing alignment, division, and emerging consensus."
+          description="A digital hive mind that connects you with like-minded thinkers. Explore how different groups perceive the world and discover where you fit in."
           // form={
           //   <>
           //     <iframe
@@ -115,15 +115,21 @@ export default function Home() {
                 height={765}
                 className="min-w-[30rem]"
               />
-              {/* <div className="absolute bottom-0 left-150 scale-[1.2] border">
-                <Image
-                  src="/hero2.png"
-                  alt="Mockup"
-                  width={1248}
-                  height={765}
-                  className="w-full"
-                />
-              </div> */}
+              <div className="absolute bottom-[-8rem] right-0 sm:max-w-[55%] sm:bottom-[-5rem] text-left font-bold">
+                <div className="absolute z-50 flex gap-2 items-end p-5">
+                  <span className="text-2xl md:text-4xl">Belief</span>
+                  <span className="text-gray-500">Map</span>
+                </div>
+                <div className=" border border-accent bg-accent/10 backdrop-blur-md rounded-lg p-2 max-w-[90%]">
+                  <Image
+                    src="/beliefmap.png"
+                    alt="Mockup"
+                    width={300}
+                    height={500}
+                    className="object-cover w-full"
+                  />
+                </div>
+              </div>
             </div>
           }
         />
