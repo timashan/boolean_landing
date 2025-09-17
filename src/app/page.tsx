@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Features from "./feature9";
 import { useState } from "react";
+import { MagneticButton } from "@/components/ui/magnetic-button";
 
 export default function Home() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -93,9 +94,13 @@ export default function Home() {
                     className="border-border/10 bg-foreground/10 grow"
                     name="email"
                   />
-                  <Button className="shiny-button" variant="default" size="lg">
+                  <MagneticButton
+                    className="shiny-button"
+                    variant="default"
+                    size="lg"
+                  >
                     Join Waitlist
-                  </Button>
+                  </MagneticButton>
                 </form>
               )}
               {isSubmitted && (
@@ -114,7 +119,7 @@ export default function Home() {
                 height={765}
                 className="min-w-[30rem]"
               />
-              <div className="absolute bottom-[-8rem] right-0 sm:max-w-[55%] sm:bottom-[-5rem] text-left font-bold">
+              <div className="absolute bottom-[-8rem] right-0 sm:max-w-[55%] sm:bottom-[-5rem] text-left font-bold animate-float">
                 <div className="absolute z-50 flex gap-2 items-end p-5">
                   <span className="text-2xl md:text-4xl">Belief</span>
                   <span className="text-gray-500">Map</span>
