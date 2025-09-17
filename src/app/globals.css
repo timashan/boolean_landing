@@ -213,3 +213,72 @@
     @apply bg-background text-foreground;
   }
 }
+
+button {
+  cursor: pointer;
+}
+
+.shiny-button {
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+/* .shiny-button:hover {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+} */
+.shiny-button:hover {
+  color: #111;
+  background-color: #eee;
+}
+
+.shiny-button:hover::before {
+  background: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.1) 20%,
+    rgba(0, 0, 0, 0.5) 25%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+}
+
+/* Shiny flare effect */
+.shiny-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    -75deg,
+    rgba(255, 255, 255, 0.1) 20%,
+    rgba(255, 255, 255, 0.5) 25%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  transform: translateX(100%) rotate(45deg);
+  opacity: 0.8;
+  pointer-events: none;
+  animation: shine 2s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(100%) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-50%) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-200%) rotate(45deg);
+    opacity: 0;
+  }
+}

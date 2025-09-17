@@ -93,9 +93,8 @@ export default function Home() {
                     className="border-border/10 bg-foreground/10 grow"
                     name="email"
                   />
-                  <Button variant="default" size="lg">
-                    Join waitlist
-                    {/* <a href="https://www.launchuicomponents.com/">Join waitlist</a> */}
+                  <Button className="shiny-button" variant="default" size="lg">
+                    Join Waitlist
                   </Button>
                 </form>
               )}
