@@ -23,17 +23,25 @@ export default function FeaturesSection() {
             </span> */}
 
             <p className="mt-8 text-2xl font-semibold">
-              Track shifts in public opinion across different countries and
-              regions.
+              Track shifts in opinions across different countries/regions.
             </p>
           </div>
 
           <div aria-hidden className="relative">
             <div className="absolute inset-0 z-10 m-auto size-fit">
-              <div className="rounded-(--radius) bg-background z-1 dark:bg-muted relative flex size-fit w-fit items-center gap-2 border px-3 py-1 text-xs font-medium shadow-md shadow-zinc-950/5">
-                <span className="text-lg">Africa</span> 90%
+              <div className=" relative flex flex-col size-14 items-center justify-center rounded-full border bg-background text-xs font-medium shadow-md shadow-zinc-950/5 dark:bg-muted">
+                <span className="text-lg font-semibold">60%</span>
+                <small>Africa</small>
               </div>
-              <div className="rounded-(--radius) bg-background absolute inset-2 -bottom-2 mx-auto border px-3 py-4 text-xs font-medium shadow-md shadow-zinc-950/5 dark:bg-zinc-900"></div>
+              <div className="absolute left-[150%] top-[-30%] flex flex-col size-20 items-center justify-center rounded-full border bg-background text-xs font-medium shadow-md shadow-zinc-950/5 dark:bg-muted">
+                <span className="text-lg font-semibold">95%</span>
+                <small>Asia</small>
+              </div>
+
+              <div className="absolute left-[-220%] top-[-80%] flex flex-col size-16 items-center justify-center rounded-full border bg-background text-xs font-medium shadow-md shadow-zinc-950/5 dark:bg-muted">
+                <span className="text-lg font-semibold">75%</span>
+                <small>US</small>
+              </div>
             </div>
 
             <div className="relative overflow-hidden">
