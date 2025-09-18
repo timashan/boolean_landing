@@ -54,7 +54,7 @@ export default function Home() {
           //   </Badge>
           // }
           title=""
-          description="A digital hive mind designed at its core to solve 2 problems other social networks fail: Finding people that think exactly like you, & revealing analytics they keep behind closed doors."
+          description="A digital hive mind designed at its core to solve 2 problems other social networks fail: Revealing analytics they keep behind closed doors & finding people that think exactly like you."
           // form={
           //   <>
           //     <iframe

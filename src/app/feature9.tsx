@@ -23,7 +23,7 @@ export default function FeaturesSection() {
             </span> */}
 
             <p className="mt-8 text-2xl font-semibold">
-              Track shifts in opinions across different countries/regions.
+              See how people across regions/countries resonate with you.
             </p>
           </div>
 
