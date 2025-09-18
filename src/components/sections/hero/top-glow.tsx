@@ -102,7 +102,7 @@ export default function Hero({
             <p className="text-md animate-appear text-muted-foreground max-w-[550px] font-medium opacity-0 delay-100 sm:text-xl">
               {description}
             </p>
-            <small className="text-gray-600">
+            <small className="text-gray-600 animate-appear">
               Analytics are super powers to predict the future.
             </small>
           </div>

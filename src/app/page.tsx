@@ -136,6 +136,11 @@ export default function Home() {
                     height={500}
                     className="object-cover w-full"
                   />
+                  <p className="font-thin text-gray-300 text-sm">
+                    A belief map where each node is a comment, showing clusters
+                    of like-minded opinions and connections between similar
+                    beliefs.
+                  </p>
                 </div>
               </div>
             </div>
