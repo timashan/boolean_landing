@@ -54,7 +54,7 @@ export default function Home() {
           //   </Badge>
           // }
           title=""
-          description="A new kind of social media — a digital hive mind that connects you with like-minded thinkers. Explore how different groups perceive the world, share your takes, and discover where you truly fit in."
+          description="A digital hive mind designed at its core to solve 2 problems other social networks fail: Finding people that think exactly like you, & revealing analytics they keep behind closed doors."
           // form={
           //   <>
           //     <iframe
