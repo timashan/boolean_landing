@@ -35,7 +35,7 @@ export default function Home() {
             alt="Mockup"
             width={600}
             height={100}
-            className="invert absolute top-0 z-50 opacity-2 px-12 scale-[5] pointer-events-none"
+            className="invert absolute top-0 z-50 px-12 scale-[5] pointer-events-none opacity-0 md:opacity-2"
           />
         </div>
         <Hero1

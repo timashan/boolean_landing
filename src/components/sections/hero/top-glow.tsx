@@ -94,7 +94,7 @@ export default function Hero({
   return (
     <Section className={cn("relative w-full", className)}>
       <div className="max-w-container relative mx-auto flex flex-col gap-12 sm:gap-24">
-        <div className="relative z-10 flex flex-col items-center gap-6 text-center sm:gap-12">
+        <div className="relative z-10 flex flex-col items-center gap-6 pt-16 md:pt-0 text-center sm:gap-12">
           <h1 className="animate-appear from-foreground to-foreground dark:to-muted-foreground inline-block bg-linear-to-r bg-clip-text text-4xl leading-tight font-semibold text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight">
             {title}
           </h1>
@@ -137,7 +137,7 @@ export default function Hero({
         <div className="absolute inset-0 overflow-hidden">
           <Glow
             variant="above"
-            className="animate-appear-zoom opacity-0 delay-1000"
+            className="animate-appear-zoom opacity-0 delay-1000 scale-[2] sm:scale-[1]"
           />
         </div>
       )}
