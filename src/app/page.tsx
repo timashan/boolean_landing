@@ -54,7 +54,7 @@ export default function Home() {
           //   </Badge>
           // }
           title=""
-          description="A digital hive mind designed at its core to solve 2 problems other social networks fail: Revealing analytics they keep behind closed doors & finding people that think exactly like you."
+          description="Social media sites collect oceans of data but keep the insights locked away. What if that power came back to you? Boolean gives you the analytics behind opinions — so you can make data-driven decisions."
           // form={
           //   <>
           //     <iframe

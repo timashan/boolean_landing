@@ -23,7 +23,7 @@ export default function FeaturesSection() {
             </span> */}
 
             <p className="mt-8 text-2xl font-semibold">
-              See how people across regions/countries resonate with you.
+              See how people across regions & countries resonate with you.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function FeaturesSection() {
             </span> */}
 
             <p className="my-8 text-2xl font-semibold">
-              Learn how the people around you align with you.
+              Find people that think exactly like you.
             </p>
           </div>
           <div className="relative w-full h-72">
@@ -104,7 +104,7 @@ export default function FeaturesSection() {
             </span> */}
 
             <p className="my-8 text-2xl font-semibold">
-              Visualize how beliefs align, diverge, and shift over time.{" "}
+              Learn how the people around you align with you.{" "}
               <span className="text-muted-foreground">
                 {" "}
                 Discover hidden beliefs.
